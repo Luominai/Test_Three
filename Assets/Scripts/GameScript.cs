@@ -52,5 +52,6 @@ public class GameScript : MonoBehaviour
         //Use Scene Manager and the nextLevelName variable to Load into MainMenu
         SceneManager.LoadScene(nextLevelName);
         //Use the buttonSFX to play when this function executes
+        buttonSFX.Play();
     }
 }
